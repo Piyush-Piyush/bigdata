@@ -1,4 +1,4 @@
-object wordLength {
+object WordLength {
     def findLength(arr : Array[String]) : Unit = {
         for(i <- 0 until arr.length){
             print(arr(i).length)
